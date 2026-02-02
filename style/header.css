@@ -1,27 +1,48 @@
 header{
     height: 100px;
     width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
-}
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
-.wrapper{
-    max-width: 1200px;
-    height: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-}
+    .wrapper{
+        display: flex;
+        justify-content: space-between;
+        gap: 36px;
+        height: 100%;
+        width: 100%;
+        max-width: 1800px;
+        margin: auto;
+        padding: 0 36px;
 
-.wrapper .logo{
-    font-size: 30px;
-    font-weight: 600;
-    color: #333;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
+        .wrapper-logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            img{
+                max-height: 90%;
+                width: auto;
+            }
+        }
 
-a{
-    text-decoration: none;
-    
+        nav{
+            display: flex;
+            justify-content: flex-end;
+            gap: 36px;
+            align-items: center;
+
+            a{
+                text-decoration: none;
+                color: inherit;
+                font-weight: 500;
+                font-size: 21px;
+                font-family: Arial, Helvetica, sans-serif;
+                transition: ease .5s all;
+            }
+
+            a:hover{
+                color: red;
+                text-decoration: underline;
+            }
+        }
+    }
 }
