@@ -1,8 +1,12 @@
 header{
     height: 100px;
     width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    box-shadow: royalblue 0px 3px 8px;
     position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
     
 
     .wrapper{
@@ -39,7 +43,7 @@ header{
             z-index: 100;
 
             .stick{
-                border: 2px solid black;
+                border: 2px solid rgb(0, 0, 0);
                 border-radius: 10px;
                 height: 2px;
                 width: 100%;
@@ -75,7 +79,6 @@ header{
                 font-size: 23px;
                 font-weight: 600;
                 text-decoration: none;
-                color: black;
                 font-family: Arial, Helvetica, sans-serif;
 
             }
@@ -128,7 +131,7 @@ header{
 
                 a{
                     text-decoration: none;
-                    color: inherit;
+                    color: whitesmoke;
                     font-weight: 500;
                     font-size: 21px;
                     font-family: Arial, Helvetica, sans-serif;
@@ -136,10 +139,8 @@ header{
                 }
 
                 a:hover{
-                    color: red;
-                    /*font-size: 23px;*/
+                    color: royalblue;
                     transform: scale(1.04);
-                    /*text-decoration: underline; */
                 }
             }
         }   
