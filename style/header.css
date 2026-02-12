@@ -43,7 +43,7 @@ header{
             z-index: 100;
 
             .stick{
-                border: 2px solid rgb(0, 0, 0);
+                border: 2px solid rgb(190, 196, 255);
                 border-radius: 10px;
                 height: 2px;
                 width: 100%;
@@ -95,7 +95,7 @@ header{
 
         .hamburger.active{
               .stick:nth-child(1){
-                transform: rotate(45deg) translate(7px, 7px);
+                transform: rotate(45deg) translate(7px,  8px);
             }
 
             .stick:nth-child(2){
@@ -103,8 +103,9 @@ header{
             }
 
             .stick:nth-child(3){
-                transform: rotate(-45deg) translate(7px, -7px);
+                transform: rotate(-45deg) translate(7px, -8px);
             }
+
         }
 
 
