@@ -62,3 +62,23 @@ footer {
     font-size: 13px;
     background-color: rgba(0,0,0,0.2);
 }
+
+.icons {
+    height: 125px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    max-height: 50px;
+
+    .svg {
+        height: 52px;
+        width: 52px;
+        transition: .3s ease all;
+
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+}
